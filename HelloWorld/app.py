@@ -1,4 +1,7 @@
 print("Hello World!")
 
 age = 20
-print(age)
+price = 17.07
+first_name = "sage"
+is_online = False
+print(age, price, first_name, is_online)
