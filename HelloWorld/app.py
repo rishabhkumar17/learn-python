@@ -21,10 +21,18 @@ print("Hello World!")
 # bool()
 # str()
 
-a = input("First: ")
-b = input("Second: ")
-print("sum: ", float(a) + float(b))
-print("sum: " + str(float(a) + float(b)))
+# a = input("First: ")
+# b = input("Second: ")
+# print("sum: ", float(a) + float(b))
+# print("sum: " + str(float(a) + float(b)))
+
+# Strings
+course = "python for sage"
+print(course.upper())
+print(course.lower())
+print(course.find('y'))
+print(course.replace('for', '4'))
+print('python' in course)
 
 
 
