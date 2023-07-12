@@ -1,4 +1,4 @@
-print("Hello World!")
+# print("Hello World!")
 
 # variables
 # age = 20
@@ -27,13 +27,23 @@ print("Hello World!")
 # print("sum: " + str(float(a) + float(b)))
 
 # Strings
-course = "python for sage"
-print(course.upper())
-print(course.lower())
-print(course.find('y'))
-print(course.replace('for', '4'))
-print('python' in course)
+# course = "python for sage"
+# print(course.upper())
+# print(course.lower())
+# print(course.find('y'))
+# print(course.replace('for', '4'))
+# print('python' in course)
 
+# Arithmetic Operators
+print(10 + 7)
 
+print (10 / 7)
+print(10 // 7)
+print(10 % 7)
+print(10 ** 7)
+
+x = 10
+x += 7
+print(x)
 
 
