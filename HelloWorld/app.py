@@ -47,5 +47,16 @@
 # print(x)
 
 # Operator Precedence
-x = (10 + 3) * 2
-print(x)
+# x = (10 + 3) * 2
+# print(x)
+
+# Comparison Operator
+# x = 3 > 2
+# >=
+# <=
+# ==
+# !=
+# <
+# >
+# print(x)
+
