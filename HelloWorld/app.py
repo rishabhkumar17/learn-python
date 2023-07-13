@@ -35,15 +35,17 @@
 # print('python' in course)
 
 # Arithmetic Operators
-print(10 + 7)
+# print(10 + 7)
+#
+# print (10 / 7)
+# print(10 // 7)
+# print(10 % 7)
+# print(10 ** 7)
+#
+# x = 10
+# x += 7
+# print(x)
 
-print (10 / 7)
-print(10 // 7)
-print(10 % 7)
-print(10 ** 7)
-
-x = 10
-x += 7
+# Operator Precedence
+x = (10 + 3) * 2
 print(x)
-
-
