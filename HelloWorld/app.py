@@ -67,16 +67,26 @@
 # print(not price > 10)
 
 # If Statements
-temperature = 7
-if temperature > 30:
-    print("Hot day!")
-elif temperature > 20:
-    print("Nice day!")
-elif temperature > 10:
-    print("Bit cold!")
+# temperature = 7
+# if temperature > 30:
+#     print("Hot day!")
+# elif temperature > 20:
+#     print("Nice day!")
+# elif temperature > 10:
+#     print("Bit cold!")
+# else:
+#     print("Cold day!")
+# print("Done!")
+
+# Exercise
+weight = input("Weight: ")
+unit = input("(K)g | (L)bs: ")
+if unit.upper() == "K":
+    converted = float(weight) // 0.45
+    print("Weight in Lbs: " + str(converted))
 else:
-    print("Cold day!")
-print("Done!")
+    converted = float(weight) * 0.45
+    print("Weight in Kgs: " + str(converted))
 
 
 
