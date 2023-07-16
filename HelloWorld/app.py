@@ -79,16 +79,20 @@
 # print("Done!")
 
 # Exercise
-weight = input("Weight: ")
-unit = input("(K)g | (L)bs: ")
-if unit.upper() == "K":
-    converted = float(weight) // 0.45
-    print("Weight in Lbs: " + str(converted))
-else:
-    converted = float(weight) * 0.45
-    print("Weight in Kgs: " + str(converted))
+# weight = input("Weight: ")
+# unit = input("(K)g | (L)bs: ")
+# if unit.upper() == "K":
+#     converted = float(weight) // 0.45
+#     print("Weight in Lbs: " + str(converted))
+# else:
+#     converted = float(weight) * 0.45
+#     print("Weight in Kgs: " + str(converted))
 
-
+# while loop
+i = 1
+while i <= 1_00:
+    print(i * "*")
+    i += 1
 
 
 
