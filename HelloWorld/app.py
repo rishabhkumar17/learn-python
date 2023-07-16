@@ -95,9 +95,18 @@
 #     i += 1
 
 # Lists
-names = ["sage", "johan", "ten-ma", "shinichi"]
-print(names[0])
-print(names[-1])
-names[0] = "savage"
-print(names[0])
-print(names[0:3])
+# names = ["sage", "johan", "ten-ma", "shinichi"]
+# print(names[0])
+# print(names[-1])
+# names[0] = "savage"
+# print(names[0])
+# print(names[0:3])
+
+# List Methods
+numbers = [1, 2, 3, 4, 5, 6]
+numbers.append(7)
+print(numbers)
+numbers.insert(0, -1)
+# numbers.clear()
+print(1 in numbers)
+print(len(numbers))
