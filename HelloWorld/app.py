@@ -103,10 +103,15 @@
 # print(names[0:3])
 
 # List Methods
-numbers = [1, 2, 3, 4, 5, 6]
-numbers.append(7)
-print(numbers)
-numbers.insert(0, -1)
-# numbers.clear()
-print(1 in numbers)
-print(len(numbers))
+# numbers = [1, 2, 3, 4, 5, 6]
+# numbers.append(7)
+# print(numbers)
+# numbers.insert(0, -1)
+# # numbers.clear()
+# print(1 in numbers)
+# print(len(numbers))
+
+# for loop
+numbers = [1, 2, 3, 4, 5, 6, 7]
+for item in numbers:
+    print(item)
