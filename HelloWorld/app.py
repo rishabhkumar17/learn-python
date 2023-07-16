@@ -89,10 +89,15 @@
 #     print("Weight in Kgs: " + str(converted))
 
 # while loop
-i = 1
-while i <= 1_00:
-    print(i * "*")
-    i += 1
+# i = 1
+# while i <= 1_00:
+#     print(i * "*")
+#     i += 1
 
-
-
+# Lists
+names = ["sage", "johan", "ten-ma", "shinichi"]
+print(names[0])
+print(names[-1])
+names[0] = "savage"
+print(names[0])
+print(names[0:3])
