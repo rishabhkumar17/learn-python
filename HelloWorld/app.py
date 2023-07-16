@@ -112,6 +112,14 @@
 # print(len(numbers))
 
 # for loop
-numbers = [1, 2, 3, 4, 5, 6, 7]
-for item in numbers:
-    print(item)
+# numbers = [1, 2, 3, 4, 5, 6, 7]
+# for item in numbers:
+#     print(item)
+
+# range() function
+numbers = range(1, 8, 2)
+for number in numbers:
+    print(number)
+
+for number in range(8):
+    print(number)
