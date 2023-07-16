@@ -117,9 +117,15 @@
 #     print(item)
 
 # range() function
-numbers = range(1, 8, 2)
-for number in numbers:
-    print(number)
+# numbers = range(1, 8, 2)
+# for number in numbers:
+#     print(number)
+#
+# for number in range(8):
+#     print(number)
 
-for number in range(8):
-    print(number)
+# tuples -> immutable object
+numbers = (1, 2, 3, 7, 7)
+# numbers[0] = 0 # error
+numbers.count(7)  # return 2
+
